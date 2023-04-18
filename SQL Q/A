@@ -1,6 +1,0 @@
-FETCH ALL CLASS NAME WHERE MUSIC IS TAUFGHT AS SUBJEFCT
-
-SELECT cl.class_name AS classname
-from classes AS cl
-JOIN subjects AS sub on cl.subject_id = sub.subject_id
-WHERE sub.subject_name = 'Music';
